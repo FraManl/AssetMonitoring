@@ -1,0 +1,46 @@
+[
+  {
+    "type": "Achat",
+    "date": "2021-06-19T09:00:00.000Z",
+    "volume": 50,
+    "price": 120,
+    "fee": 13,
+    "rawInvest": 650,
+    "netInvestexclT": 620,
+    "taxFee": 35,
+    "netInvest": 585
+  },
+  {
+    "type": "Achat",
+    "date": "2021-03-21T09:00:00.000Z",
+    "volume": 50,
+    "price": 120,
+    "fee": 13,
+    "rawInvest": 650,
+    "netInvestexclT": 620,
+    "taxFee": 35,
+    "netInvest": 585
+  },
+  {
+    "type": "Vente",
+    "date": "2021-02-17T09:00:00.000Z",
+    "volume": 50,
+    "price": 120,
+    "fee": 13,
+    "rawInvest": 650,
+    "netInvestexclT": 620,
+    "taxFee": 35,
+    "netInvest": 585
+  },
+  {
+    "type": "Vente",
+    "date": "2020-08-19T09:00:00.000Z",
+    "volume": 50,
+    "price": 120,
+    "fee": 13,
+    "rawInvest": 650,
+    "netInvestexclT": 620,
+    "taxFee": 35,
+    "netInvest": 585
+  }
+]

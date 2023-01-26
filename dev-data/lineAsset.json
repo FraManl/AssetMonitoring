@@ -1,0 +1,46 @@
+[
+  {
+    "code": "HO",
+    "isin": "FR435676543D",
+    "company": "THALES",
+    "volume": 650,
+    "unitPrice": 102.1,
+    "fees": 45.56,
+    "tax": 23.12,
+    "valoT0": 34566.3,
+    "lastUpdate": "2021-03-21T09:00:00.000Z"
+  },
+  {
+    "code": "FR",
+    "isin": "FR5676543DFG",
+    "company": "THOLES",
+    "volume": 650,
+    "unitPrice": 102.1,
+    "fees": 45.56,
+    "tax": 23.12,
+    "valoT0": 34566.3,
+    "lastUpdate": "2021-03-21T09:00:00.000Z"
+  },
+  {
+    "code": "TA",
+    "isin": "FR4376543DFG",
+    "company": "THOPES",
+    "volume": 650,
+    "unitPrice": 102.1,
+    "fees": 45.56,
+    "tax": 23.12,
+    "valoT0": 34566.3,
+    "lastUpdate": "2021-03-21T09:00:00.000Z"
+  },
+  {
+    "code": "IO",
+    "isin": "FR4356763DFG",
+    "company": "THAES",
+    "volume": 650,
+    "unitPrice": 102.1,
+    "fees": 45.56,
+    "tax": 23.12,
+    "valoT0": 34566.3,
+    "lastUpdate": "2021-03-21T09:00:00.000Z"
+  }
+]

@@ -12,7 +12,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, "public"))); // serve all static files from this folder
 
 // REST API mounting
-// const tourRouter = require("./routes/tourRoutes");
+const lineRouter = require("./routes/lineRoutes");
 
 // development log-in
 if (process.env.NODE_ENV === "development") {
@@ -33,16 +33,9 @@ app.use(cookieParser());
 app.use(mongoSanitize());
 app.use(xss());
 
-// testing middleware
-app.use((req, res, next) => {
-  req.requestTime = new Date().toISOString(); // create new property to req
-  console.log(req.requestTime);
-  console.log(req.cookies);
-  next();
-});
-
 // Mounting middleware routers (functions) on url paths
 // app.use("/api/v1/tours", tourRouter);
+app.use("/api/v1/lines", lineRouter);
 
 app.use(compression()); // compress text for application lightness
 

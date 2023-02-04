@@ -13,6 +13,7 @@ app.use(express.static(path.join(__dirname, "public"))); // serve all static fil
 
 // REST API mounting
 const lineRouter = require("./routes/lineRoutes");
+const transactionRouter = require("./routes/transactionRoutes");
 
 // development log-in
 if (process.env.NODE_ENV === "development") {
@@ -36,6 +37,7 @@ app.use(xss());
 // Mounting middleware routers (functions) on url paths
 // app.use("/api/v1/tours", tourRouter);
 app.use("/api/v1/lines", lineRouter);
+app.use("/api/v1/transactions", transactionRouter);
 
 app.use(compression()); // compress text for application lightness
 
